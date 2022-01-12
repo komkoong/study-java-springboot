@@ -1,6 +1,5 @@
 # study-java-springboot
-Java, Spring Boot Study Workspace
-<hr />
+자바, 스프링부트 학습 내용 업데이트
 
 
 ### Note
