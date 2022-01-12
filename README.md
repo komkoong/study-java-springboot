@@ -4,6 +4,6 @@ Java, Spring Boot Study Workspace
 
 
 ### Note
-java: 자바 작업 디렉토리
+java: 자바 작업 디렉토리   
 springboot: 스프링부트 작업 디렉토리
 
