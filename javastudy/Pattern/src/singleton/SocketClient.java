@@ -2,9 +2,8 @@ package singleton;
 
 /**
  * Singleton Pattern
- * ÇÏ³ªÀÇ °´Ã¼¸¸ Á¸ÀçÇÏµµ·Ï »ı¼ºÀÚ´Â private·Î ¼±¾ğÇÏ°í
- * getInstance¸¦ ÀÌ¿ëÇÏ¿© SocketClientÀÇ °´Ã¼¸¦ »ç¿ë
  * 
+ * í•˜ë‚˜ì˜ ê°ì²´ë§Œ ìƒì„±í•˜ë„ë¡ ìƒì„±ìë¥¼ privateë¡œ ì„ ì–¸ 
  * @author Komkoong
  *
  */

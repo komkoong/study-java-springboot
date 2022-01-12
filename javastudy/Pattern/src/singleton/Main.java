@@ -3,12 +3,13 @@ package singleton;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Message1 msg1 = new Message1();
 		Message2 msg2 = new Message2();
 		
 		SocketClient client1 = msg1.getSocketClient();
 		SocketClient client2 = msg2.getSocketClient();
 		
-		System.out.println("µÎ °´Ã¼´Â °°Àº°¡? " + client1.equals(client2));
+		System.out.println("ë‘ ê°ì²´ëŠ” ê°™ì€ê°€? " + client1.equals(client2));
 	}
 }
