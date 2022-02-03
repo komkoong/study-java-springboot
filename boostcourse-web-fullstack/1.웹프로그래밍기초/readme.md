@@ -47,6 +47,23 @@
 
 
 3) 웹 프론트앤드와 백엔드
+- 핵심개념: HTML, CSS, JavaScript, 클라이언트, 서버
+- 웹 프론트앤드 역할
+  * 웹콘텐츠를 잘 보여주기 위해 구조를 만들어야 합니다.(신문,책등과 같이) - HTML: 계층적
+  * 적절한 배치와 일관된 디자인 등을 제공해야 합니다.(보기 좋게) - CSS
+  * 사용자 요청을 잘 반영해야 합니다.(소통하듯이) - Javascript: 동적인 부분을 담당
+- 백엔드 역할
+  * server side
+  * 정보를 처리하고 저장하며 요청에 따라 정보를 내려주는 역할을 함
+  * JAVA, Python, PHP, JavaScript 등 프로그래밍 언어를 사용함
+  * 웹의 동작 원리를 알고 있는것이 좋음
 
-
+4) 브라우저의 동작
+- 서버에서 전송한 데이터(HTML 등)가 클라이언트에 도착해야 할 곳은 Browser
+- "How Browser Work"
+- 사파리 브라우저에서 처리되는 webkit렌더링엔진의 처리과정
+출처 https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+- parsing-general
+- HTML Parser < /> ... mark-up ... DOM Tree
+- 
 
