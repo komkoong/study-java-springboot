@@ -12,6 +12,7 @@
 
 
 <h5> 1. 웹에 대한 기본이해를 한다. </h5>
+<h5> 2. 웹클라이언트와 웹백엔드의 역할을 안다. </h5>
 1) 웹 프로그래밍을 위한 프로그램 언어들
 - 다양한 프로그래밍 언어의 종류에 대하여 알아본다.
 - 웹 프로그래밍에 좀 더 최적화된 프로그래밍 언어의 장단점에 대하여 알아본다.
@@ -80,29 +81,54 @@
 
 * HTML 코드 - jsbin.com / 회원가입 후 사용 권장
 ~~~
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title> JS Bin</title>
-    <style>
-        div {
-            color : blue;
-        }
-    </style>
-</head>
-<body>
-    <div> 웹프론트엔드 </div>
-</body>
-<script>
-    console.log("JavaScript Code... ");
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>저를소개해요</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/start.js"></script>
+  </head>
+  <body>
+    <h1>안녕하세요</h1>
+    <div>코드스쿼드 크롱이라고 합니다</div>
+    <script src="js/library.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
 ~~~
+***
+ 
+#### JavaScript 코드는 body 태그 닫히기 전에 위치하는 것이 렌더링을 방해하지 않아도 좋고, css코드는 head 안에 위치해서 렌더링 처리 시에 브라우저가 더 빨리 참고할 수 있게 하는 것이 좋습니다.
+
+
+6) 웹서버
+- 웹브라우저의 요청을 받아 HTML 문서나 오브젝트를 반환하나느 웹서버에 대하여 알아봄
+- 핵심개념: Apache, Nginx, HTTP, Client, Server
+- 웹서버는 보통 '소프트웨어'를 말하지만, 웹서버 소프트웨어가 통작하는 '컴퓨터'를 말한다.
+- 가장 중요한 기능은 Client가 요청하는 HTML 문서나 각종 리소스를 전달하는 것
+- 웹브라우저나 웹크롤러가 요청하는 리소스는 컴퓨터에 저장되어 있는 정적인 데이터이거나 동적인 결과가 될 수 있다.
+- 웹크롤러: 네이버나 구글같은 검색사이트에서 다른 웹사이트 정보를 읽어갈 때 사용하는 소프트웨어
+- 웹브라우저 -> 웹페이지 요청 -> 웹서버 -> 웹페이지 응답 -> 웹브라우저
+
+7) WAS
+- 핵심개념: Web Application Server, Apache Tomcat
+- DBMS 가 클라이언트와 직접 연결되어 동작하는것의 문제점 -> 미들웨어 등장
+- 클라이언트 DBMS 사이에 또 다른 서버를 두는 방식
+- 클라이언트는 요청만 중앙서버에 보내고(미들웨어), 중앙서버에서 대부분의 로직 수행
+- 그 결과를 클라이언트에 전달함
+ * WAS
+   - 일종의 미들웨어로 웹클라이언트의 요청 중 웹 애플리케이션이 동작하도록 지원하는 목적
+   - 1. 프로그램 실행 환경과 데이터베이서 접속기능 제공
+   - 2. 여러개의 트랜잭션을 관리함: 트랜잭션은 논리적인 작업단위를 의미함
+   - 3. 업무를 처리하는 비지니스 로직을 수행함
+   - 기본적으로 웹서버의 기능도 제공함: WAS만 설치해도 웹서버를 내장하고 있어 동작함
+   - 그렇지만 현업에서는 웹서버와 WAS를 함께 구성함: 규모가 커질수록 장애 극복 기능(failover) 을 위해 분리함
+   - 이미지출처: http://round1tko.tistory.com/64
+ ![image](https://user-images.githubusercontent.com/87292447/152462324-bcdf1c00-d32e-49cd-a730-1087db57bcf0.png)
+   - 요즘은 WAS에서 충분히 웹서버 역할을 수행함
+   - 그럼에도 불구하고 같이 구성하면 좋은점은 웹서버는 비교적 WAS에 비해 간단함
+   - 대용량 web app인 경우 서버의 수가 여러대일 수 있음 : 장애극복
  
  
-
-
-
-
