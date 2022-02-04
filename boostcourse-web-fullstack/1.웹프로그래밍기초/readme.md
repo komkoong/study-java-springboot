@@ -79,7 +79,7 @@
 - <tag class="title"> 안녕하세요</tag> - html은 tag 를 사용해서 표현함
 
 * HTML 코드 - jsbin.com / 회원가입 후 
-'''
+~~~
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,7 +91,7 @@
 ...
  </body>
 </html>
-'''
+~~~
  
  
 
