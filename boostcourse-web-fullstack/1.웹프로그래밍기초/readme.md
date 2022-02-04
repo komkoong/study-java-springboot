@@ -67,3 +67,31 @@
 - HTML Parser < /> ... mark-up ... DOM Tree
 - 
 
+5) 브라우저에서의 웹 개발
+- 웹 클라이언트 코드는 브라우저 안에서 동작함
+- 브라우저: Edge, Explorer, Firefox, Safari ...
+- 브라우저 개발자 도구(mac) option + command + i
+- <script /> : JavaScript code
+- <meta /> : 문서에 대한 설명
+- <style /> : CSS code
+  - HTML안에 JavaScript, CSS 코드가 예상치 못한 곳에 위치할 수 있음
+- <head> html 문서에 대한 추가적인 설명, 자세한 문서에 대한 정보, 눈에 보이는 것을 정의하는 것은 아님
+- <tag class="title"> 안녕하세요</tag> - html은 tag 를 사용해서 표현함
+
+* HTML 코드 
+<pre><code>
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title> JS Bin></title>
+</head>
+</html>
+</code></pre>
+ 
+ 
+
+
+
+
