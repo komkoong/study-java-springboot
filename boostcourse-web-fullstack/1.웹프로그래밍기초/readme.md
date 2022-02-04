@@ -83,22 +83,21 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width">
- <title> JS Bin</title>
- <style>
-  div {
-   color : blue;
-  }
- </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> JS Bin</title>
+    <style>
+        div {
+            color : blue;
+        }
+    </style>
 </head>
 <body>
-...
- <div> 웹프론트엔드 </div>
- </body>
- <script>
-  console.log("JavaScript Code... ");
- </script>
+    <div> 웹프론트엔드 </div>
+</body>
+<script>
+    console.log("JavaScript Code... ");
+</script>
 </html>
 ~~~
  
