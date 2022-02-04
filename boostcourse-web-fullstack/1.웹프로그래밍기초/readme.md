@@ -78,7 +78,7 @@
 - <head> html 문서에 대한 추가적인 설명, 자세한 문서에 대한 정보, 눈에 보이는 것을 정의하는 것은 아님
 - <tag class="title"> 안녕하세요</tag> - html은 tag 를 사용해서 표현함
 
-* HTML 코드 - jsbin.com / 회원가입 후 
+* HTML 코드 - jsbin.com / 회원가입 후 사용 권장
 ~~~
 <!DOCTYPE html>
 <html>
@@ -86,10 +86,19 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width">
  <title> JS Bin</title>
+ <style>
+  div {
+   color : blue;
+  }
+ </style>
 </head>
 <body>
 ...
+ <div> 웹프론트엔드 </div>
  </body>
+ <script>
+  console.log("JavaScript Code... ");
+ </script>
 </html>
 ~~~
  
