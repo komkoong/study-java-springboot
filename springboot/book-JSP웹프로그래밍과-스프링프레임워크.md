@@ -62,5 +62,6 @@ public class RestApiService {
 ### p. 294 JDBC 프로그래밍 과정
 ![image](https://user-images.githubusercontent.com/87292447/152921422-621bbeaa-24c6-46ad-b37b-009a3c95b709.png)
 
-
+  - JDBC 프로그래밍의 기본 단계와 사용 클래스
+  - 이미지출처: JSP 웹 프로그래밍과 스프링 프레임워크 / 황희정 지음
   
