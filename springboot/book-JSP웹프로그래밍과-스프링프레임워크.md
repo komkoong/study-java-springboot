@@ -29,7 +29,21 @@ public class RestApiService {
  
 #### 2. 스프링 프레임워크의 RestController 코드
 
-
 <pre>
 <code>
+@RestController
+@RequestMapping("/addrbook")
+public class RestApiService {
+  Logger logger = Logger.getLogger("RestApiService");
+  AddrBookDAO dao = new AddrBookH2DAO();
+  
+  @GetMapping("list")
+  public List<AddrBook> getList() {
+    List<AddrBook> datas = dao.getAll();
+    logger.info("API call: /list ");
+    return datas;
+   }
+}
+</code>
+</pre>
 
