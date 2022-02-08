@@ -47,3 +47,20 @@ public class RestApiService {
 </code>
 </pre>
 
+
+### p.130 스프링 부트란
+
+![image](https://user-images.githubusercontent.com/87292447/152904454-b7b741ed-3bbd-44c9-8980-a5068462ed88.png)
+
+이미지출처: spring.io
+
+* 스프링 부트 2의 주요 특징은 리액티브 스택과 서블릿 스택으로 구분하고 있다는 점
+  - 서블릿 스택: 서블릿 API에 기반한 동기 방식의 블로킹 I/O 구조를 사용하며 요청은 하나의 스레드로 처리됨
+  - 리액티브 스택: 새로운 비동기 논블로킹 I/O 구조를 사용하며 멀티코어 시스템의 장점을 살리고 대규모 사용자 접속을 처리하는데 유용한 구조로 설계됨 ex. Netty, Undertow, Spring WebFlux라고 하는 새로운 프레임워크를 사용해 개발함
+
+
+### p. 294 JDBC 프로그래밍 과정
+![image](https://user-images.githubusercontent.com/87292447/152921422-621bbeaa-24c6-46ad-b37b-009a3c95b709.png)
+
+
+  
